@@ -1,10 +1,6 @@
 @import url("../styles/colors.css");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
-.box img {
-  height: 75vh;
-}
-
 label {
   margin-top: 0.9rem;
   color: var(--text-medium);
@@ -13,13 +9,17 @@ label {
 .box {
   display: flex;
   gap: 10rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+
+  margin: 5rem 0;
+}
+
+.box img {
+  height: 75vh;
 }
 
 .box .form {
-  align-self: center;
   width: 100%;
+  align-self: center;
 }
 
 .box .form h1 {

@@ -22,7 +22,8 @@ header nav {
   gap: 1rem;
 }
 
-nav a, .link {
+nav a,
+.link {
   text-decoration: none;
   color: var(--green-400);
 
@@ -31,7 +32,8 @@ nav a, .link {
   gap: 0.5rem;
 }
 
-nav a:hover, .link:hover {
+nav a:hover,
+.link:hover {
   text-decoration: none;
   color: var(--green-350);
 }
@@ -74,4 +76,45 @@ section.general-categories a {
 
 section.general-categories a:hover {
   text-decoration: underline;
+}
+
+/*Footer*/
+footer {
+  padding: 1rem;
+  background: var(--green-750);
+}
+
+footer img {
+  height: 5rem;
+}
+
+footer .sec-footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+footer h1 {
+  color: var(--green-090);
+  font-size: 1.4rem;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+footer a:hover {
+  color: var(--gray-090);
+}
+
+footer i {
+  font-size: 1.3rem;
+}
+
+footer p,
+a,
+span {
+  color: var(--gray-200);
 }
