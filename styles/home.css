@@ -1,0 +1,74 @@
+@import url('../styles/colors.css');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.container-carousel {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.banner {
+    margin: 1rem 0;
+
+}
+
+.carousel-item img, .carousel-inner {
+    border-radius: 0.5rem;
+}
+
+.dropdown-divider {
+    margin-top: 3rem;
+}
+
+.title {
+    color: var(--green-250);
+    font-family: 'Anton', sans-serif;
+
+    margin-bottom: 3rem;
+}
+
+.top-recipes {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    margin: 1rem 0;
+}
+
+.top-recipes .card {
+    padding: 1rem 1.5rem;
+}
+
+.card {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.card .header {
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid var(--gray-090);
+}
+
+.card .header span {
+    font-weight: 700;
+    color: var(--text-black);
+}
+
+.card .body {
+    padding: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.card .body div {
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.card .body i, span {
+    color: var(--text-light);
+}
