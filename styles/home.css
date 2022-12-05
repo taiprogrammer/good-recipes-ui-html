@@ -42,33 +42,11 @@
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 
-.card .header {
-    display: flex;
-    justify-content: center;
-
-    padding-bottom: 0.7rem;
-    border-bottom: 1px solid var(--gray-090);
+.card .card-title {
+    font-size: 1rem;
+    color: var(--text-medium);
 }
 
-.card .header span {
-    font-weight: 700;
-    color: var(--text-black);
-}
-
-.card .body {
-    padding: 1rem 0;
-
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-}
-
-.card .body div {
-    gap: 0.5rem;
-    display: flex;
-    align-items: center;
-}
-
-.card .body i, span {
+.card .card-body i, span {
     color: var(--text-light);
 }

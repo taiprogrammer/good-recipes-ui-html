@@ -33,6 +33,10 @@
   .top-recipes {
     grid-template-columns: 1fr 1fr !important;
   }
+
+  footer .sec-footer {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 280px) and (max-width: 360px) {
@@ -64,6 +68,14 @@
 
   .top-recipes {
     grid-template-columns: 1fr !important;
+  }
+
+  footer .sec-footer {
+    flex-direction: column;
+  }
+
+  footer img {
+    height: 4rem;
   }
 }
 
