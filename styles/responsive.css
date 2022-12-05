@@ -37,6 +37,19 @@
   footer .sec-footer {
     flex-direction: column;
   }
+
+  /*Login*/
+  .box {
+    flex-direction: column;
+  }
+
+  .box .img {
+    display: none;
+  }
+
+  .box .form {
+    margin: 10rem 0;
+  }
 }
 
 @media (min-width: 280px) and (max-width: 360px) {
@@ -75,7 +88,20 @@
   }
 
   footer img {
-    height: 4rem;
+    height: 1rem;
+  }
+
+  /*Login*/
+  .box {
+    flex-direction: column;
+  }
+
+  .box .img {
+    display: none;
+  }
+
+  .box .form {
+    margin: 10rem 0;
   }
 }
 
@@ -92,6 +118,19 @@
 
   .top-recipes {
     grid-template-columns: 1fr 1fr 1fr !important;
+  }
+
+  /*Login*/
+  .box {
+    flex-direction: column;
+  }
+
+  .box .img {
+    display: none;
+  }
+
+  .box .form {
+    margin: 10rem 0;
   }
 }
 

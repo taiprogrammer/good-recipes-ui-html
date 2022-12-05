@@ -1,52 +1,93 @@
-@import url('../styles/colors.css');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url("../styles/colors.css");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 .container-carousel {
-    width: 60%;
-    margin: 0 auto;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .banner {
-    margin: 1rem 0;
-
+  margin: 1rem 0;
 }
 
-.carousel-item img, .carousel-inner {
-    border-radius: 0.5rem;
+.carousel-item img,
+.carousel-inner {
+  border-radius: 0.5rem;
 }
 
 .dropdown-divider {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .title {
-    color: var(--green-250);
-    font-family: 'Anton', sans-serif;
+  color: var(--green-250);
+  font-family: "Anton", sans-serif;
 
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .top-recipes {
-    gap: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 .top-recipes .card {
-    padding: 1rem 1.5rem;
+  padding: 1rem 1.5rem;
 }
 
 .card {
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .card .card-title {
-    font-size: 1rem;
-    color: var(--text-medium);
+  font-size: 1rem;
+  color: var(--text-medium);
 }
 
-.card .card-body i, span {
-    color: var(--text-light);
+.card .card-body i,
+span {
+  color: var(--text-light);
+}
+
+footer {
+  padding: 1rem;
+  background: var(--green-750);
+}
+
+footer img {
+  height: 5rem;
+}
+
+footer .sec-footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+footer h1 {
+  color: var(--green-090);
+  font-size: 1.4rem;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+footer a:hover {
+  color: var(--gray-090);
+}
+
+footer i {
+  font-size: 1.3rem;
+}
+
+footer p,
+a,
+span {
+  color: var(--gray-200);
 }

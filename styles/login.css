@@ -1,0 +1,73 @@
+@import url("../styles/colors.css");
+
+main img {
+  height: 85vh;
+}
+
+label {
+  color: var(--text-medium);
+}
+
+.box {
+  display: flex;
+  gap: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.box .form {
+  align-self: center;
+}
+
+.btn {
+  margin-top: 1rem;
+  color: var(--gray-090);
+  background: var(--green-750);
+  padding: 0.5rem 3rem;
+
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+footer {
+  padding: 1rem;
+  background: var(--green-750);
+}
+
+footer img {
+  height: 5rem;
+}
+
+footer .sec-footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+footer h1 {
+  color: var(--green-090);
+  font-size: 1.4rem;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+footer a:hover {
+  color: var(--gray-090);
+}
+
+footer i {
+  font-size: 1.3rem;
+}
+
+footer p,
+a,
+span {
+  color: var(--gray-200);
+}
