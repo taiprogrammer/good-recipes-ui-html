@@ -1,0 +1,6 @@
+@import url("./colors.css");
+
+.box {
+  display: flex;
+  gap: 10rem;
+}
