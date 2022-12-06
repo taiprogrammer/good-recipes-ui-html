@@ -3,4 +3,28 @@
 .box {
   display: flex;
   gap: 10rem;
+
+  /* background: red; */
+  height: 80vh;
+
+  margin: 2.5rem 0;
+}
+
+.box nav {
+  background: var(--gray-090);
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.box nav .nav-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-header h3 {
+  color: var(--gray-650);
 }
