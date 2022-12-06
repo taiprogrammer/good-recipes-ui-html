@@ -31,7 +31,7 @@
   }
 
   .top-recipes {
-    grid-template-columns: 1fr 1fr !important;
+    grid-template-columns: 1fr !important;
   }
 
   footer .sec-footer {
