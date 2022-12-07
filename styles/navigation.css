@@ -24,6 +24,8 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+
+    border-bottom: 0.8px solid var(--gray-200);
   }
   
   .box nav .nav-header i {

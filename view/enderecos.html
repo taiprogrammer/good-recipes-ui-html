@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good Recipes</title>
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--PHOSPHOR ICON-->
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <!--BOOTSTRAP-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/responsive.css" />
+    <link rel="stylesheet" href="../styles/enderecos.css" />
+    <link rel="stylesheet" href="../styles/navigation.css" />
+  </head>
+  <body>
+    <header class="logged">
+      <div class="container">
+        <a href="#">
+          <img src="../assets/logo-light.png" alt="Logo Good Recipes" />
+        </a>
+        <nav>
+          <a href="#">
+            <i class="ph-notepad"></i>
+            <span class="link">Minhas receitas</span>
+          </a>
+          <a href="#">
+            <i class="ph-heart"></i>
+            <span class="link">Meus favoritos</span>
+          </a>
+          <a href="#">
+            <i class="ph-user-gear"></i>
+            <span class="link">Minha conta</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="box">
+          <nav>
+            <section class="nav-header">
+              <i class="ph-user-circle-gear-light"></i>
+              <h3>Nome do usuário</h3>
+            </section>
+            <section class="nav-options">
+              <a href="#">
+                <i class="ph-heart"></i>
+                <span class="link">Meus favoritos</span>
+              </a>
+              <a href="#">
+                <i class="ph-notepad-light"></i>
+                <span class="link">Envie sua receita</span>
+              </a>
+              <a href="#">
+                <i class="ph-folder-notch-open-light"></i>
+                <span class="link">Minhas receitas</span>
+              </a>
+              <a href="#">
+                <i class="ph-clipboard-text-light active"></i>
+                <span class="link active">Meus dados</span>
+              </a>
+              <a href="#" class="logout">
+                <i class="ph-sign-out-light"></i>
+                <span class="link">Sair</span>
+              </a>
+            </section>
+          </nav>
+          <section class="meus-enderecos">
+            <div class="title">
+              <i class="ph-map-pin-line-light"></i>
+              <h1>Meus endereços</h1>
+            </div>
+            <section>
+              <!-- <div class="no-address">
+                    <i class="ph-smiley-sad-light"></i>
+                    <h4>Parece que você não tem nenhum endereço cadastrado</h4>
+                    <a href="#">Cadastrar novo endereço</a>
+                </div> -->
+              <div class="addresses">
+                <aside>
+                  <div class="info">
+                    <div class="field">
+                      <span class="label">Rua:</span>
+                      <p>Rua Lima, <p>52</p></p>
+                    </div>
+                    <div class="field">
+                      <span class="label">Estado:</span>
+                      <p>São Paulo</p>
+                    </div>
+                    <div class="field">
+                      <span class="label">Cidade:</span>
+                      <p>SP</p>
+                    </div>
+                  </div>
+                  <a href="#" class="edit-address">
+                    <i class="ph-pencil-line-light"></i>
+                    <span>Editar</span>
+                  </a>
+                </aside>
+                <aside>
+                    <div class="info">
+                      <div class="field">
+                        <span class="label">Rua:</span>
+                        <p>Rua Lima, <p>52</p></p>
+                      </div>
+                      <div class="field">
+                        <span class="label">Estado:</span>
+                        <p>São Paulo</p>
+                      </div>
+                      <div class="field">
+                        <span class="label">Cidade:</span>
+                        <p>SP</p>
+                      </div>
+                    </div>
+                    <a href="#" class="edit-address">
+                      <i class="ph-pencil-line-light"></i>
+                      <span>Editar</span>
+                    </a>
+                  </aside>
+                  <aside>
+                    <div class="info">
+                      <div class="field">
+                        <span class="label">Rua:</span>
+                        <p>Rua Lima, <p>52</p></p>
+                      </div>
+                      <div class="field">
+                        <span class="label">Estado:</span>
+                        <p>São Paulo</p>
+                      </div>
+                      <div class="field">
+                        <span class="label">Cidade:</span>
+                        <p>SP</p>
+                      </div>
+                    </div>
+                    <a href="#" class="edit-address">
+                      <i class="ph-pencil-line-light"></i>
+                      <span>Editar</span>
+                    </a>
+                  </aside>
+                  <aside>
+                    <div class="info">
+                      <div class="field">
+                        <span class="label">Rua:</span>
+                        <p>Rua Lima, <p>52</p></p>
+                      </div>
+                      <div class="field">
+                        <span class="label">Estado:</span>
+                        <p>São Paulo</p>
+                      </div>
+                      <div class="field">
+                        <span class="label">Cidade:</span>
+                        <p>SP</p>
+                      </div>
+                    </div>
+                    <a href="#" class="edit-address">
+                      <i class="ph-pencil-line-light"></i>
+                      <span>Editar</span>
+                    </a>
+                  </aside>
+                  <aside>
+                    <div class="info">
+                      <div class="field">
+                        <span class="label">Rua:</span>
+                        <p>Rua Lima, <p>52</p></p>
+                      </div>
+                      <div class="field">
+                        <span class="label">Estado:</span>
+                        <p>São Paulo</p>
+                      </div>
+                      <div class="field">
+                        <span class="label">Cidade:</span>
+                        <p>SP</p>
+                      </div>
+                    </div>
+                    <a href="#" class="edit-address">
+                      <i class="ph-pencil-line-light"></i>
+                      <span>Editar</span>
+                    </a>
+                  </aside>
+                  <aside>
+                    <div class="info">
+                      <div class="field">
+                        <span class="label">Rua:</span>
+                        <p>Rua Lima, <p>52</p></p>
+                      </div>
+                      <div class="field">
+                        <span class="label">Estado:</span>
+                        <p>São Paulo</p>
+                      </div>
+                      <div class="field">
+                        <span class="label">Cidade:</span>
+                        <p>SP</p>
+                      </div>
+                    </div>
+                    <a href="#" class="edit-address">
+                      <i class="ph-pencil-line-light"></i>
+                      <span>Editar</span>
+                    </a>
+                  </aside>
+              </div>
+            </section>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
