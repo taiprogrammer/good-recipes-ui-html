@@ -48,6 +48,7 @@
     <link rel="stylesheet" href="../styles/global.css" />
     <link rel="stylesheet" href="../styles/responsive.css" />
     <link rel="stylesheet" href="../styles/perfil.css" />
+    <link rel="stylesheet" href="../styles/navigation.css" />
   </head>
   <body>
     <header class="logged">
@@ -79,7 +80,7 @@
               <i class="ph-user-circle-gear-light"></i>
               <h3>Nome do usuário</h3>
             </section>
-            <section>
+            <section class="nav-options">
               <a href="#">
                 <i class="ph-heart"></i>
                 <span class="link">Meus favoritos</span>
@@ -93,13 +94,47 @@
                 <span class="link">Minhas receitas</span>
               </a>
               <a href="#">
-                <i class="ph-clipboard-text-light"></i>
-                <span class="link">Meus dados</span>
+                <i class="ph-clipboard-text-light active"></i>
+                <span class="link active">Meus dados</span>
               </a>
             </section>
           </nav>
           <section class="meus-dados">
-            <h1>Alo</h1>
+            <div class="title">
+              <i class="ph-clipboard-text-light"></i>
+              <h1>Meus dados</h1>
+            </div>
+            <section>
+              <div class="data-user">
+                <div class="field">
+                  <span class="label">Nome:</span>
+                  <span class="data">Nome do usuário</span>
+                </div>
+                <div class="field">
+                  <span class="label">Email:</span>
+                  <span class="data">Email do usuário</span>
+                </div>
+                <div class="field">
+                  <span class="label">Data de Nascimento:</span>
+                  <span class="data">DD/MM/AAAA</span>
+                </div>
+                <div class="field">
+                  <span class="label">País:</span>
+                  <span class="data">País do usuário</span>
+                </div>
+                <div class="field">
+                  <a href="#" class="edit">Editar Informações</a>
+                </div>
+              </div>
+              <div class="user-options">
+                <h4>Meus Endereços</h4>
+                <a href="#">Ver meus endereços</a>
+              </div>
+              <div class="user-options">
+                <h4>Credenciais de acesso</h4>
+                <a href="#">Mudar minha senha</a>
+              </div>
+            </section>
           </section>
         </div>
       </div>

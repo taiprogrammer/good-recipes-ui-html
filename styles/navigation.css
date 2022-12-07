@@ -1,0 +1,49 @@
+@import url("./colors.css");
+
+.box {
+    display: flex;
+    gap: 10rem;
+
+    height: 80vh;
+  
+    margin: 2.5rem 0;
+  }
+  
+  .box nav {
+    background: var(--gray-090);
+    padding: 2rem;
+  
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    border-radius: 0.5rem;
+  }
+  
+  .box nav .nav-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .box nav .nav-header i {
+    font-size: 4.5rem;
+  }
+  
+  .nav-header h3 {
+    color: var(--gray-650);
+  }
+  
+  .nav-options {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .nav-options a {
+    padding: 1rem 0.5rem;
+  }
+  
+  .active {
+    color: var(--green-750) !important;
+  }
