@@ -12,6 +12,7 @@
   .box nav {
     background: var(--gray-090);
     padding: 2rem;
+    height: fit-content;
   
     display: flex;
     gap: 2rem;
