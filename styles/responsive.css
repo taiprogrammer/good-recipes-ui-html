@@ -57,8 +57,11 @@
     gap: 1rem !important;
   }
 
-  .meus-dados, .meus-enderecos {
+  .meus-dados,
+  .meus-enderecos {
     width: 100% !important;
+    margin-left: 0 !important;
+    margin-bottom: 1rem;
   }
 
   .title h1 {
@@ -75,6 +78,15 @@
 
   .user-options a {
     font-size: 0.7rem;
+  }
+
+  /*Addresses*/
+  .fixed-nav {
+    position: static !important;
+  }
+
+  .address {
+    overflow: hidden;
   }
 }
 
@@ -135,9 +147,11 @@
     flex-direction: column;
     gap: 1rem !important;
   }
-
-  .meus-dados, .meus-enderecos {
+  .meus-dados,
+  .meus-enderecos {
     width: 100% !important;
+    margin-bottom: 1rem;
+    margin-left: 0 !important;
   }
 
   .title h1 {
@@ -154,6 +168,15 @@
 
   .user-options a {
     font-size: 0.7rem;
+  }
+
+  /*Address*/
+  .address {
+    overflow: hidden;
+  }
+
+  .fixed-nav {
+    position: static !important;
   }
 }
 
@@ -191,12 +214,23 @@
     gap: 1rem !important;
   }
 
-  .meus-dados, .meus-enderecos {
+  .meus-dados,
+  .meus-enderecos {
     width: 100% !important;
+    margin-left: 0 !important;
   }
 
   .meus-dados h1 {
     font-size: 1.5rem;
+  }
+
+  /*Address*/
+  .address {
+    overflow: hidden;
+  }
+
+  .fixed-nav {
+    position: static !important;
   }
 }
 

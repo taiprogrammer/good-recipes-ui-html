@@ -1,7 +1,19 @@
 @import url("./colors.css");
 
+.box {
+  position: relative;
+  overflow-y: auto;
+}
+
+.fixed-nav {
+  position: fixed;
+  z-index: 1;
+}
+
 .meus-enderecos {
-    width: 55%;
+  width: 55%;
+  position: relative;
+  margin-left: 28rem;
 }
 
 .title {
@@ -19,64 +31,60 @@
 }
 
 .no-address {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
 
-    width: 45%;
-    margin: 10rem auto;
-    color: var(--text-medium);
+  width: 45%;
+  margin: 10rem auto;
+  color: var(--text-medium);
 }
 
 .no-address i {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .no-address a {
-    color: var(--white);
-    background: var(--green-750);
-    padding: 0.5rem 1.5rem;
-    border-radius: 0.4rem;
+  color: var(--white);
+  background: var(--green-750);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.4rem;
 }
 
 .no-address h4 {
-    font-size: 1rem;
-}
-
-.meus-enderecos {
-    max-height: 8vh;
+  font-size: 1rem;
 }
 
 .addresses aside {
-    padding: 1rem;
-    border-radius: 0.4rem;
-    background: var(--green-750);
+  padding: 1rem;
+  border-radius: 0.4rem;
+  background: var(--green-750);
 
-    display: flex;
-    justify-content: space-between;
-    margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
 }
 
 .field {
-    display: flex;
-    gap: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
 }
 
 .field .label {
-    color: var(--white);
-    font-size: 1rem;
+  color: var(--white);
+  font-size: 1rem;
 }
 
 .field p {
-    color: var(--gray-200);
+  color: var(--gray-200);
 }
 
 .edit-address i:hover {
-    color: var(--gray-200);
+  color: var(--gray-200);
 }
 
 .edit-address:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
