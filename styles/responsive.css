@@ -88,6 +88,11 @@
   .address {
     overflow: hidden;
   }
+
+  /*Edit data*/
+  .edit-user-data {
+    width: 100% !important;
+  }
 }
 
 @media (min-width: 280px) and (max-width: 360px) {
@@ -178,6 +183,11 @@
   .fixed-nav {
     position: static !important;
   }
+
+  /*Edit data*/
+  .edit-user-data {
+    width: 100% !important;
+  }
 }
 
 /*Tab*/
@@ -231,6 +241,11 @@
 
   .fixed-nav {
     position: static !important;
+  }
+
+  /*Edit data*/
+  .edit-user-data {
+    width: 100% !important;
   }
 }
 

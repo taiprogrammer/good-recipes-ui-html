@@ -1,0 +1,47 @@
+@import url("./colors.css");
+
+.edit-user-data {
+    width: 55%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-medium);
+  width: 100%;
+
+  border-bottom: 0.5px solid var(--gray-300);
+}
+
+.title i {
+  font-size: 1.5rem;
+}
+
+form {
+    margin: 1.5rem 0;
+}
+
+label {
+    margin: 1rem 0;
+    color: var(--text-medium);
+    font-weight: 500;
+}
+
+.button-container {
+    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-save {
+    background: var(--green-400);
+    color: var(--white);
+
+    transition: all .3s !important;
+}
+
+.btn-save:hover {
+    opacity: 0.9;
+}
