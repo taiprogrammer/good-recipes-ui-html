@@ -98,6 +98,11 @@
   .change-password {
     width: 100% !important;
   }
+
+  /*Edit Address*/
+  .edit-address {
+    width: 100% !important;
+  }
 }
 
 @media (min-width: 280px) and (max-width: 360px) {
@@ -198,6 +203,11 @@
   .change-password {
     width: 100% !important;
   }
+
+  /*Edit Address*/
+  .edit-address {
+    width: 100% !important;
+  }
 }
 
 /*Tab*/
@@ -262,34 +272,9 @@
   .change-password {
     width: 100% !important;
   }
-}
 
-/*Large Screen*/
-
-/*25% of 1920px*/
-@media (min-width: 7680px) and (max-width: 7680px) {
-}
-
-/*50% of 1920px*/
-@media (min-width: 3840px) and (max-width: 3840px) {
-}
-
-/*75% of 1920px*/
-@media (min-width: 2560px) and (max-width: 2560px) {
-}
-
-/*80% of 1920px*/
-@media (min-width: 2400px) and (max-width: 2400px) {
-}
-
-/*110% of 1920px*/
-@media (min-width: 1745.45px) and (max-width: 1745.45px) {
-}
-
-/*125% of 1920px*/
-@media (min-width: 1536px) and (max-width: 1536px) {
-}
-
-/*150% of 1920px*/
-@media (min-width: 1280px) and (max-width: 1280px) {
+  /*Edit Address*/
+  .edit-address {
+    width: 100% !important;
+  }
 }
