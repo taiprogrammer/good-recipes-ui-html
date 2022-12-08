@@ -44,7 +44,7 @@
     <link rel="stylesheet" href="../styles/normalize.css" />
     <link rel="stylesheet" href="../styles/global.css" />
     <link rel="stylesheet" href="../styles/responsive.css" />
-    <link rel="stylesheet" href="../styles/perfil.css" />
+    <link rel="stylesheet" href="../styles/mudar-senha.css" />
     <link rel="stylesheet" href="../styles/navigation.css" />
   </head>
   <body>
@@ -100,44 +100,38 @@
               </a>
             </section>
           </nav>
-          <section class="meus-dados">
+          <section class="change-password">
             <div class="title">
-              <i class="ph-clipboard-text-light"></i>
-              <h1>Meus dados</h1>
+              <i class="ph-key-light"></i>
+              <h1>Mudar senha</h1>
             </div>
-            <section>
-              <div class="data-user">
-                <div class="field">
-                  <span class="label">Nome:</span>
-                  <span class="data">Nome do usuário</span>
-                </div>
-                <div class="field">
-                  <span class="label">Email:</span>
-                  <span class="data">Email do usuário</span>
-                </div>
-                <div class="field">
-                  <span class="label">Data de Nascimento:</span>
-                  <span class="data">DD/MM/AAAA</span>
-                </div>
-                <div class="field">
-                  <span class="label">País:</span>
-                  <span class="data">País do usuário</span>
-                </div>
-                <div class="field">
-                  <a href="./editar-dados.html" class="edit"
-                    >Editar Informações</a
-                  >
-                </div>
+            <form>
+              <label for="atual">Senha atual</label>
+              <input
+                type="password"
+                name="atual"
+                id="atual"
+                class="form-control"
+              />
+              <label for="nova">Nova senha</label>
+              <input
+                type="password"
+                name="nova"
+                id="nova"
+                class="form-control"
+              />
+              <label for="retype">Digite novamente</label>
+              <input
+                type="password"
+                name="retype"
+                id="retype"
+                class="form-control"
+              />
+              <div class="button-container">
+                <button class="btn btn-save">Salvar</button>
+                <button class="btn btn-danger">Cancelar</button>
               </div>
-              <div class="user-options">
-                <h4>Meus Endereços</h4>
-                <a href="./enderecos.html">Ver meus endereços</a>
-              </div>
-              <div class="user-options">
-                <h4>Credenciais de acesso</h4>
-                <a href="./mudar-senha.html">Mudar minha senha</a>
-              </div>
-            </section>
+            </form>
           </section>
         </div>
       </div>

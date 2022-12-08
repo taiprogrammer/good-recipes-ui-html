@@ -93,6 +93,11 @@
   .edit-user-data {
     width: 100% !important;
   }
+
+  /*Change Password*/
+  .change-password {
+    width: 100% !important;
+  }
 }
 
 @media (min-width: 280px) and (max-width: 360px) {
@@ -188,6 +193,11 @@
   .edit-user-data {
     width: 100% !important;
   }
+
+  /*Change Password*/
+  .change-password {
+    width: 100% !important;
+  }
 }
 
 /*Tab*/
@@ -245,6 +255,11 @@
 
   /*Edit data*/
   .edit-user-data {
+    width: 100% !important;
+  }
+
+  /*Change Password*/
+  .change-password {
     width: 100% !important;
   }
 }
