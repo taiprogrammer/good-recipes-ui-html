@@ -44,7 +44,7 @@
     <link rel="stylesheet" href="../styles/normalize.css" />
     <link rel="stylesheet" href="../styles/global.css" />
     <link rel="stylesheet" href="../styles/responsive.css" />
-    <link rel="stylesheet" href="../styles/editar-dados.css" />
+    <link rel="stylesheet" href="../styles/meus-favoritos.css" />
     <link rel="stylesheet" href="../styles/navigation.css" />
   </head>
   <body>
@@ -79,8 +79,8 @@
             </section>
             <section class="nav-options">
               <a href="./meus-favoritos.html">
-                <i class="ph-heart"></i>
-                <span class="link">Meus favoritos</span>
+                <i class="ph-heart active"></i>
+                <span class="link active">Meus favoritos</span>
               </a>
               <a href="#">
                 <i class="ph-notepad-light"></i>
@@ -91,8 +91,8 @@
                 <span class="link">Minhas receitas</span>
               </a>
               <a href="./perfil.html">
-                <i class="ph-clipboard-text-light active"></i>
-                <span class="link active">Meus dados</span>
+                <i class="ph-clipboard-text-light"></i>
+                <span class="link">Meus dados</span>
               </a>
               <a href="#" class="logout">
                 <i class="ph-sign-out-light"></i>
@@ -100,48 +100,31 @@
               </a>
             </section>
           </nav>
-          <section class="edit-user-data">
+          <section class="meus-fav">
             <div class="title">
-              <i class="ph-pencil-line-light"></i>
-              <h1>Editar meus dados cadastrais</h1>
+              <i class="ph-heart-light"></i>
+              <h1>Meus favoritos</h1>
             </div>
-            <form class="form-edit">
-              <label for="nome">Nome</label>
-              <input
-                type="text"
-                name="nome"
-                id="nome"
-                class="form-control"
-                value="Nome do usuário"
-              />
-              <label for="email">Email</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                value="email@sample.com"
-                class="form-control"
-              />
-              <label for="data_nascimento">Data de Nascimento</label>
-              <input
-                type="date"
-                name="data_nascimento"
-                id="data_nascimento"
-                class="form-control"
-              />
-              <label for="pais">País</label>
-              <input
-                type="text"
-                name="pais"
-                id="pais"
-                value="Brazil"
-                class="form-control"
-              />
-              <div class="button-container">
-                <button class="btn btn-save">Salvar</button>
-                <button class="btn btn-danger">Cancelar</button>
-              </div>
-            </form>
+            <div class="favorites">
+              <!-- <div class="no-favorites">
+                <i class="ph-smiley-sad-light"></i>
+                <h4>Parece que você não tem nenhum favorito ainda.</h4>
+              </div> -->
+              <aside>
+                <img src="../assets/cover.png" />
+                <div class="info">
+                  <h3>Receita</h3>
+                  <p>Autor: <span>John Doe</span></p>
+                  <i class="ph-star-fill"></i>
+                  <i class="ph-star-fill"></i>
+                  <i class="ph-star-fill"></i>
+                  <i class="ph-star-fill"></i>
+                  <i class="ph-star-half-fill"></i>
+                  <div>
+                  </div>
+                </div>
+              </aside>
+            </div>
           </section>
         </div>
       </div>
