@@ -46,7 +46,7 @@
     <link rel="stylesheet" href="../styles/responsive.css" />
     <link rel="stylesheet" href="../styles/home.css" />
   </head>
-  <body>
+  <body onload="getTop5(), getFavorites()">
     <!--NOT LOGGED-->
     <header class="not-logged">
       <div class="container">
@@ -162,182 +162,10 @@
         <div class="dropdown-divider"></div>
         <!--Receitas populares-->
         <h1 class="title">Top 5 Receitas</h1>
-        <section class="top-recipes">
-          <div class="card">
-            <img class="card-img-top" src="../assets/cover.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
-              <p class="card-text">
-                <div>
-                  <i class="ph-timer"></i>
-                  <span>1 min</span>
-                </div>
-                <div>
-                  <i class="ph-fork-knife"></i>
-                  <span>20 porções</span>
-                </div>
-              </p>
-              <a href="#" class="card-link">Ver mais</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="../assets/cover.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
-              <p class="card-text">
-                <div>
-                  <i class="ph-timer"></i>
-                  <span>1 min</span>
-                </div>
-                <div>
-                  <i class="ph-fork-knife"></i>
-                  <span>20 porções</span>
-                </div>
-              </p>
-              <a href="#" class="card-link">Ver mais</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="../assets/cover.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
-              <p class="card-text">
-                <div>
-                  <i class="ph-timer"></i>
-                  <span>1 min</span>
-                </div>
-                <div>
-                  <i class="ph-fork-knife"></i>
-                  <span>20 porções</span>
-                </div>
-              </p>
-              <a href="#" class="card-link">Ver mais</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="../assets/cover.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
-              <p class="card-text">
-                <div>
-                  <i class="ph-timer"></i>
-                  <span>1 min</span>
-                </div>
-                <div>
-                  <i class="ph-fork-knife"></i>
-                  <span>20 porções</span>
-                </div>
-              </p>
-              <a href="#" class="card-link">Ver mais</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="../assets/cover.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
-              <p class="card-text">
-                <div>
-                  <i class="ph-timer"></i>
-                  <span>1 min</span>
-                </div>
-                <div>
-                  <i class="ph-fork-knife"></i>
-                  <span>20 porções</span>
-                </div>
-              </p>
-              <a href="#" class="card-link">Ver mais</a>
-            </div>
-          </div>
-        </section>
+        <section class="top-recipes" id="top-5"></section>
         <div class="dropdown-divider"></div>
         <h1 class="title">Os Favoritinhos</h1>
-        <section class="top-recipes mb-5">
-          <div class="card">
-            <img class="card-img-top" src="../assets/cover.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
-              <p class="card-text">
-                <div>
-                  <i class="ph-timer"></i>
-                  <span>1 min</span>
-                </div>
-                <div>
-                  <i class="ph-fork-knife"></i>
-                  <span>20 porções</span>
-                </div>
-              </p>
-              <a href="#" class="card-link">Ver mais</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="../assets/cover.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
-              <p class="card-text">
-                <div>
-                  <i class="ph-timer"></i>
-                  <span>1 min</span>
-                </div>
-                <div>
-                  <i class="ph-fork-knife"></i>
-                  <span>20 porções</span>
-                </div>
-              </p>
-              <a href="#" class="card-link">Ver mais</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="../assets/cover.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
-              <p class="card-text">
-                <div>
-                  <i class="ph-timer"></i>
-                  <span>1 min</span>
-                </div>
-                <div>
-                  <i class="ph-fork-knife"></i>
-                  <span>20 porções</span>
-                </div>
-              </p>
-              <a href="#" class="card-link">Ver mais</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="../assets/cover.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
-              <p class="card-text">
-                <div>
-                  <i class="ph-timer"></i>
-                  <span>1 min</span>
-                </div>
-                <div>
-                  <i class="ph-fork-knife"></i>
-                  <span>20 porções</span>
-                </div>
-              </p>
-              <a href="#" class="card-link">Ver mais</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="../assets/cover.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Nome da receita</h5>
-              <p class="card-text">
-                <div>
-                  <i class="ph-timer"></i>
-                  <span>1 min</span>
-                </div>
-                <div>
-                  <i class="ph-fork-knife"></i>
-                  <span>20 porções</span>
-                </div>
-              </p>
-              <a href="#" class="card-link">Ver mais</a>
-            </div>
-          </div>
-        </section>
+        <section class="top-recipes mb-5" id="favorites"></section>
       </div>
     </main>
     <footer>
@@ -404,5 +232,9 @@
         </section>
       </div>
     </footer>
+
+    <!--Axios-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../js/index.js"></script>
   </body>
 </html>
